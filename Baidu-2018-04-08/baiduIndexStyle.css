@@ -1,0 +1,90 @@
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+}
+.s-top-wrap {
+    border: none;
+}
+#u1>a.mnav,
+#u1>a.lb,
+#u1>a.pf,
+#s_top_wrap>a,
+#s_usersetting_top>a,
+#s_upfunc_menus a,
+#u_sp>a:not([id]),
+#u_sp .s-user-name-top>span,
+#u_sp .s-user-setting-top>span,
+#u_sp .s_bri>a {
+    text-decoration: none;
+    font-size: 15px;
+}
+#u_sp>a:hover {
+    color: #f1f1f1;
+}
+
+#u1 a.pf,
+#u1 a.lb {
+    background: #3388ff;
+    color: #fff!important;
+    padding: 7px 20px;
+    box-shadow: 0px 0px 10px 1px RGBA(0, 0, 0, .2);
+    -webkit-box-shadow: 0px 0px 10px 1px RGBA(0, 0, 0, .2);
+    -moz-box-shadow: 0px 0px 10px 1px RGBA(0, 0, 0, .2);
+}
+#u1 a.pf:hover,
+#u1 a.lb:hover{
+    background: #2b6fce;
+}
+
+#u1 a.bri{
+    background: #3388ff;
+    color: #fff!important;
+    padding: 7px 5px;
+    box-shadow: 0px 0px 10px 1px RGBA(0, 0, 0, .2);
+    -webkit-box-shadow: 0px 0px 10px 1px RGBA(0, 0, 0, .2);
+    -moz-box-shadow: 0px 0px 10px 1px RGBA(0, 0, 0, .2);
+}
+
+
+#qrcode,
+#ftCon{
+    opacity:0;
+}
+#qrcode:hover,
+#ftCon:hover{
+    opacity:1;
+}
+
+
+.bdpfmenu {
+    width: auto;
+    box-shadow: 0px 0px 10px 3px RGBA(0, 0, 0, .2);
+    -webkit-box-shadow: 0px 0px 10px 3px RGBA(0, 0, 0, .2);
+    -moz-box-shadow: 0px 0px 10px 3px RGBA(0, 0, 0, .2);
+}
+.bdpfmenu {
+    position: fixed;
+    /*left: 1195px!important;*/
+    top: 60px!important;
+    display: none;
+}
+
+.bdpfmenu a {
+     width:60px;
+    line-height: 25px;
+    padding: 5px 10px;
+    background: #f0f0f0!important;
+    color: #222;
+    text-align: center;
+}
+.bdpfmenu a:hover {
+    background: #3385ff!important;
+    color: #fff;
+}
+
+#u1 a.mnav,
+#wrapper .bdnuarrow{
+    display:none!important;
+    opacity: 0;
+}
