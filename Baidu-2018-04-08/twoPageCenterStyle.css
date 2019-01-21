@@ -1,0 +1,46 @@
+#container {
+    width: 1293px;
+    margin: auto;
+}
+#rs,
+#page,
+#content_left {
+    margin-left: 0;
+}
+#content_left {
+    padding-left: 0;
+}
+#page {
+    margin-left: -40px;
+}
+#form {
+    position: absolute;
+    width: 641px;
+    height:36px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#form .s_btn {
+    width: 102px;
+}
+#s_tab {
+    padding-left: 0px;
+    
+    text-align: center;
+}
+.head_nums_cont_outer .search_tool_conter,
+.head_nums_cont_outer .nums {
+    margin-left: 0;
+}
+#container .head_nums_cont_outer .search_tool_conter,
+#container .head_nums_cont_outer .nums {
+    width: 1293px;
+}
+#double {
+    position: absolute;
+    margin-left: 653px;
+}
