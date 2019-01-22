@@ -38,6 +38,7 @@ body a,
     z-index: 1!important;
 }
 #s_top_wrap{
+	border: none!important;
     padding-bottom:40px;
     background:transparent!important;
 }
