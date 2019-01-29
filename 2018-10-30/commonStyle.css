@@ -244,14 +244,17 @@ a, em{
 }
 #u {
     font-size: 15px!important;
-    margin-top: 17px!important;
+    margin-top: 15px!important;
 }
 #u a,
 #u a:hover {
     text-decoration: none;
 }
+
 #u>a {
-    padding: 7px 8px!important;
+    box-sizing: border-box!important;
+    font-family: "Microsoft YaHei"!important;
+    padding: 6px 8px!important;
 }
 #u>a:not(#CustomMenu) {
     background: transparent!important;
