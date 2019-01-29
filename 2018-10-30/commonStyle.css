@@ -254,7 +254,7 @@ a, em{
 #u>a {
     box-sizing: border-box!important;
     font-family: "Microsoft YaHei"!important;
-    padding: 6px 8px!important;
+    padding: 6px 8px !important;
 }
 #u>a:not(#CustomMenu) {
     background: transparent!important;
