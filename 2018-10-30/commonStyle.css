@@ -603,8 +603,16 @@ tbody a:hover,
 }
 /* 小屏处理 */
 
+/*
 @media screen and (max-width: 1023px) {
     #u {
+        display: none!important;
+    }
+}
+*/
+
+@media screen and (max-width: 1333px) {
+    .toindex {
         display: none!important;
     }
 }
