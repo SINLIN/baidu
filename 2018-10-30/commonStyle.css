@@ -149,6 +149,7 @@ a, em{
     z-index: 2!important;
 }
 #s_tab:hover {
+    will-change:left,opacity;
     left: 0;
     opacity: 1!important;
     transition: left 350ms, opacity 350ms;
@@ -172,6 +173,7 @@ a, em{
     transition:padding-left .2s;
 }
 .s_tab_inner>a:hover {
+  
     padding-left:35px!important;
     color: #fff!important;
     transition:padding-left .2s;
@@ -360,6 +362,7 @@ a, em{
 }
 #content_left .op-soft-title a:hover:after,
 #content_left .c-container h3 a:hover:after {
+    will-change:left,width;
     left: 0;
     width: 100%;
     -webkit-transition: width 350ms;
@@ -376,16 +379,6 @@ a, em{
 #content_left .c-container h3 a:visited {
     color: #7c32a1!important;
 }
-#content_left .op-soft-title a:visited:hover:after,
-#content_left .c-container h3 a:visited:hover:after {
-    left: 0;
-    width: 100%;
-    -webkit-transition: width 350ms;
-    -moz-transition: width 350ms;
-    -ms-transition: width 350ms;
-    -o-transition: width 350ms;
-    transition: width 350ms;
-}
 #content_left .op-soft-title a:visited:after,
 #content_left .c-container h3 a:visited:after {
     left: 100%;
@@ -396,6 +389,18 @@ a, em{
     -o-transition: width 350ms, left 350ms;
     transition: width 350ms, left 350ms;
 }
+#content_left .op-soft-title a:visited:hover:after,
+#content_left .c-container h3 a:visited:hover:after {
+    will-change:left,width; 
+    left: 0;
+    width: 100%;
+    -webkit-transition: width 350ms;
+    -moz-transition: width 350ms;
+    -ms-transition: width 350ms;
+    -o-transition: width 350ms;
+    transition: width 350ms;
+}
+
 /* 条目 - 颜色 */
 
 #content_left ol li,
