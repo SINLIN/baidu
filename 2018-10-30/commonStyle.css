@@ -29,7 +29,7 @@ body>div[style*='position: absolute;'],
 #content_left>div[style*='display:block !important;'] {
     display: none !important;
     position: absolute !important;
-    top:0!important;
+    top:-1px!important;
     clip: rect(0 0 0 0) !important;
     z-index: -1 !important;
 }
@@ -37,18 +37,11 @@ body>div[style*='position: absolute;'],
 * 全局 
 */
 
-:root {
-    --bg-gray: #f1f2f3;
-    --bg-darkgray: #d6d6d6;
-    --bg-blue: hsla(216, 80%, 55%, .8)!important;
-    --bg-blue-hover: hsla(216, 80%, 55%, 1)!important;
-    --color-blue: hsla(216, 80%, 55%, 1)!important;
-}
+
 
 body {
     overflow-y: scroll!important;
     background-color: #f1f2f3!important;
-    background-color: var(--bg-gray)!important;
 
 }
 a, em{
@@ -58,10 +51,9 @@ a, em{
 
 #head {
     background-color: #f1f2f3!important;
-    background-color: var(--bg-gray)!important;
     border-bottom: 1px solid!important;
     border-color:#d6d6d6!important;
-    border-color: var(--bg-darkgray)!important;
+  
   
 }
 
@@ -99,7 +91,9 @@ a, em{
     border: 1px solid #e2e0e0!important;
     border-right: none!important;
     box-sizing: border-box!important;
+/*     border-radius:3px 0 0 3px; */
 }
+
 #form>.s_ipt_wr>.soutu-btn {
     background-color: transparent!important;
 }
@@ -123,16 +117,17 @@ a, em{
 #su {
     height: 38px;
     font-size: 15px;
-    border: none;
+    border: none!important;
+    box-shadow:none!important;
     background-color: hsla(216, 80%, 55%, .8)!important;
-    background-color: var(--bg-blue)!important;
+/*     border-radius: 0 3px 3px 0; */
 }
+
+
 #su:hover {
-    border: none;
-    background: #515e92!important;
     color: #fff;
-    background-color: hsla(216, 80%, 55%, .8)!important;
-    background-color: var(--bg-blue-hover)!important;
+    background-color: hsla(216, 80%, 55%, 1)!important;
+    
 }
 #form .bdsug li {
     font-size: 16px;
@@ -234,8 +229,7 @@ a, em{
 }
 .usermenu a:hover,
 .bdpfmenu a:hover {
-   background: hsla(216, 80%, 55%, .8)!important;;
-    background: var(--bg-blue)!important;
+    background: hsla(216, 80%, 55%, .8)!important;;
     color: #fff!important;
 }
 #container {
@@ -251,24 +245,22 @@ a, em{
     text-decoration: none;
 }
 
-#u>a {
+#u > a {
     box-sizing: border-box!important;
     font-family: "Microsoft YaHei"!important;
     padding: 6px 8px !important;
 }
-#u>a:not(#CustomMenu) {
+/* :not(#CustomMenu) */
+#u > a {
     background: transparent!important;
     color:hsla(216, 80%, 55%, .8)!important;
-    color: var(--color-blue) !important;
     outline-color: hsla(216, 80%, 55%, .8)!important;;
-    outline: 1px solid var(--bg-blue) !important;
+    border:1px solid!important;
 }
-#u>a:not(#CustomMenu):hover {
+#u > a:hover {
     color: #fff !important;
     background: hsla(216, 80%, 55%, .8)!important;
-    background: var(--bg-blue) !important;
-    outline-color: hsla(216, 80%, 55%, .8)!important;;
-    outline: 1px solid var(--bg-blue) !important;
+    border-color: hsla(216, 80%, 55%, .8)!important;;
 }
 /*  */
 
