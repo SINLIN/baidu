@@ -608,7 +608,7 @@ tbody a:hover,
 }
 */
 
-@media screen and (max-width: 1333px) {
+@media screen and (max-width: 1377px) {
     .toindex {
         display: none!important;
     }
