@@ -1,7 +1,7 @@
 #u>#CustomMenu{
     display:inline;
-    border:1px solid!important;
-    color:#0f7e8c!important;
+/*     border:1px solid!important; */
+    color:#7ca0d4!important;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -9,15 +9,15 @@
 }
 
 #u>#CustomMenu:hover{
-	color:#fff!important;
-   border-color: #0f7e8c!important;
-	background:#0f7e8c!important;
+/* 	color:#fff!important; */
+/*    border-color: #0f7e8c!important; */
+/* 	background:#0f7e8c!important; */
    cursor: pointer;
 }
 
 #menulist {
     position:absolute;
-    top:35px;
+    top:40px;
     margin-left:-15px;
     max-width:120px;
     min-width:100px;
@@ -27,7 +27,7 @@
 #menulist ol{
     text-align:center;
     box-shadow:none!important;
-    border:1px solid #c1c1c1!important;
+    border:1px solid #e4e5e7!important;
 }
 
 #menulist ol~ol{
@@ -45,29 +45,3 @@
     -ms-user-select: none;
     user-select: none;
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
