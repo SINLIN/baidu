@@ -646,6 +646,25 @@ tbody a:hover,
     }
 }
 
+/* 百家号 */
+#mybaijiahao {
+    color:#555!important;
+    padding: 0px 0 0 10px!important;
+    font-size: 18px!important;
+    background: inherit!important;
+    width: 100%!important;
+    height: 100%!important;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    border: none!important;
+    outline: none!important;
+}
+
+#mybaijiahao:focus{
+	color:#222!important;
+}
+
 
 /*  兼容 searchEngineJump 搜索引擎快捷跳转 */
 #sej-container + #wrapper_wrapper .head_nums_cont_outer{
