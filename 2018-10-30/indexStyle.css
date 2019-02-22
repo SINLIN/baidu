@@ -190,6 +190,13 @@ body a,
     color: #fff!important;
    
 }
+#s_upfunc_menus .msg-clear-btn span{
+    font-size:13px!important;
+}
+#s_msg_setting a{
+    position:static!important;
+    font-size:13px!important;
+}
 
 
 
