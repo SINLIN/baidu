@@ -341,7 +341,7 @@ a, em{
     background:hsla(0, 0%, 90%, 0.05)!important;
     margin: 0px -20px 5px!important;
     padding: 8px 20px 6px!important;
-    border-bottom: 1px solid hsla(0, 2%, 10%, 0.02)!important;
+    border-bottom: 1px solid hsla(0, 2%, 10%, 0.05)!important;
 }
 /* 标题*/
 
