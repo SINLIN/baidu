@@ -242,6 +242,43 @@ body a,
 .s-skin-hasbg .s-ctner-contents {
     border-radius: 0px 0px 30px 30px!important;
 } */
+/*联想搜索*/
+#badiduassociation {
+   position:absolute;
+   margin-top:3px; 
+   background:white;
+   z-index:1;
+   border-radius:5px;
+   width:100%;
+  
+   box-shadow: 0 1px 3px #a99d9d
+}
+
+
+#badiduassociation li{
+   font-size:20px;
+   padding:3px 10px; 
+}
+
+#badiduassociation li:first-child{
+    border-radius:5px 5px 0 0!important;
+}
+
+#badiduassociation li:last-child{
+    border-radius:0 0 5px 5px!important;
+}
+
+#badiduassociation li:hover{
+   cursor:pointer;
+} 
+
+
+
+.baiduselected{
+   background-color: hsl(216, 4%, 90%)!important
+}
+
+/*屏幕适应*/
 
 @media screen and (min-width: 1367px){ 
 #head_wrapper {
