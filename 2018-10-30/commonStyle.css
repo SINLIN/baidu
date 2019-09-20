@@ -677,3 +677,52 @@ tbody a:hover,
     z-index:10!important;
     border: 1px solid #e2e0e0!important;
 }
+
+/*
+ * 加入box-shadow 效果 - 如果影响性能可以去除
+ * 
+ */
+#head{
+	box-shadow:0 1px 10px 1px rgba(0,0,0,.1)!important;
+	border-color: #d1d2d4!important;
+}
+
+/*#u>a{
+	transition:box-shadow .25s ease!important;
+}
+
+#u>a:hover{
+	-moz-box-shadow:0 1px 10px 1px rgba(0,0,0,.1)!important;
+	-webkit-box-shadow:0 1px 10px 1px rgba(0,0,0,.1)!important;
+    box-shadow:0 1px 10px 1px rgba(0,0,0,.1)!important;
+	transition:box-shadow .25s ease!important;
+	
+}*/
+
+
+
+
+
+#content_left .c-container,
+#rs{
+	position:relative!important;
+}
+
+#content_left .c-container:after,
+#rs:after{
+	content:"";
+	z-index:-1;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow:0 0px 30px 1px rgba(0,0,0,.1);
+}
+
+
+#page a, #page strong {
+    background-color: hsla(0, 0%, 100%, .2)!important;
+    box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.1)!important;
+}
+
