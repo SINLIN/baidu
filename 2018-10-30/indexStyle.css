@@ -6,6 +6,9 @@
 #lg img,
 #ftCon,
 #s_usersetting_top,
+#bottom_layer,
+#s-hotsearch-wrapper,
+#s_side_wrapper,
 #bottom_container {
     display: none!important;
 }
@@ -24,15 +27,28 @@ body a,
     border-radius:20px 0 0 20px;
     padding-left:15px;
     left:0px;  
-  	 height:36px;
+  	 height:42px;
     font-size:18px;
     border:none;
     outline:none;
-    width:520px;
+    width:530px;
 }
 
+element.style {
+    left: 0px;
+}
+#s_top_wrap {
+    position: absolute;
+    z-index: 99;
+    min-width: 1000px;
+    width: 100%;
+}
+.s-top-wrap {
+  
+    background: transparent!important;
+}
 
-#s_upfunc_menus1 {
+/* #s_upfunc_menus1 {
     width:100px;
     position: fixed!important;
     z-index: 1!important;
@@ -62,14 +78,16 @@ body a,
     top:-50px!important;
     transition:top 1s;
     
-}
+} */
 
 
+/* 
 #u_sp:hover>a,
 #s_upfunc_menus:hover a{
     top:0px!important;
     transition:top .5s;   
 }
+
 
 
 #u_sp > a:hover,
@@ -88,11 +106,12 @@ body a,
 
 #s_btn_wr {
     background: transparent!important;
-}
+} 
+	*/
 
 
 
-#u1 a{
+/* #u1 a{
     font-size:15px!important;
     color:hsla(0, 20%, 35%, 0.66)!important;
     transition:border .5s color .5s;
@@ -114,10 +133,11 @@ body a,
     transform: scale(.9)!important;
     margin-top:0!important;
     padding:10px 20px 50px!important; 
+}  
+	
+ #u1 a.mnav, #u1 a.mnav:visited{
+    margin-left:0px;
 } 
-#u1 a.mnav, #u1 a.mnav:visited{
-/*     margin-left:0px; */
-}
 
 
 #u1 a{
@@ -131,7 +151,7 @@ body a,
 #u1:hover a{
   top:0!important;
   transition:top .5s;
-}
+} */
 
 .bdpfmenu{
     width:80px!important;
@@ -151,11 +171,16 @@ body a,
     max-height: 300px!important;
 }
 
+#head_wrapper .s_form {
+    width: 656px!important;
+  
+}
+
 .s_form_wrapper {
     position: relative!important;
 }
 #form {
-    height: 36px!important;
+    height:42px!important;
 }
 .s_btn_wr {
     border: none!important;
@@ -163,7 +188,7 @@ body a,
 #form .s_ipt_wr.bg {
     position: relative!important;
     z-index: 0!important;
-    height:36px!important;
+    height:42px!important;
     border-radius: 30px 0 0 30px;
      
     border:1px solid #e0e0e0!important;
@@ -203,9 +228,9 @@ body a,
 
 /* 未登录版 */
 
-.s_form:not([id]) #form {
+/* .s_form:not([id]) #form {
     margin-top: -50px!important;
-}
+} */
 @media screen and (max-width: 1360px) {
     .s_form {
         transform: scale(.7);
@@ -223,10 +248,15 @@ body a,
 #head_wrapper.s-down #kw,
 #kw {
     border: none!important;
-   padding: 9px 5px!important
+    padding: 9px 5px!important
 }
 #s_fm #kw {
     border-radius: 30px 0 0 30px!important;
+}
+
+#kw{
+	visibility: hidden!important;
+/* 	margin-top: 5px!important; */
 }
 
 /* .s-opacity-100 .s-opacity-white-background{
@@ -280,7 +310,7 @@ body a,
 
 /*屏幕适应*/
 
-@media screen and (min-width: 1367px){ 
+/* @media screen and (min-width: 1367px){ 
 #head_wrapper {
         margin-top:5%!important;
     }
@@ -289,7 +319,7 @@ body a,
     #head_wrapper {
         margin-top:10%!important;
     }
-}
+} */
 
 #lg:after {
     content: "";
