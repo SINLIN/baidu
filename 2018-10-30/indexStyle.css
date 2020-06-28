@@ -321,6 +321,7 @@ element.style {
     }
 } */
 
+
 #lg:after {
     content: "";
     display: inline-block;
