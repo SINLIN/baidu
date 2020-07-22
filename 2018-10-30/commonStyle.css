@@ -242,7 +242,8 @@ a, em{
 }
 #container {
     position: relative !important;
-    top: 60px !important;
+    /*top: 60px !important;*/
+   	padding-top:60px!important;
 }
 #u {
     font-size: 15px!important;
@@ -308,6 +309,12 @@ a, em{
     padding-top: 0px !important; 
 }
 
+#content_left:after{
+	content: '';
+ 	display: table;
+	clear: both;
+}
+
 
 #content_left .c-container,
 #rs {
@@ -343,6 +350,28 @@ a, em{
     padding: 8px 20px 6px!important;
     border-bottom: 1px solid hsla(0, 2%, 10%, 0.05)!important;
 }
+
+
+/**
+ * 临时修复
+ */
+#content_left .list:last-of-type~div {
+	opacity: 0!important;
+}
+
+#content_left .c-container[tpl="med_disease_kg_collection"]{
+	padding:0!important;
+	padding-left:20px!important;
+}
+
+#content_left .c-container[tpl="med_disease_kg_collection"]  .c-container{
+	padding:0!important;
+}
+
+
+
+
+
 /* 标题*/
 
 #content_left .c-container h3 [class*='OP_LOG_LINK'] {

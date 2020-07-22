@@ -1,0 +1,80 @@
+
+#CustomMenu *{
+    display:block ;
+}
+
+#CustomMenu{
+   position:absolute;
+   margin-left:-65px!important;
+}
+
+
+#CustomMenu .button{
+   
+    display:inline;
+    padding: 0;
+    line-height:13px;
+    border-radius: 20px
+}
+#CustomMenu .button li{
+    display:inline;
+    padding: 0;
+    line-height:13px;
+    
+}
+#CustomMenu{
+/*     background:#3385ff;
+    color:#fff!important; */
+   background:hsla(188, 78%, 32%, 0.8);
+    color: #fff!important;
+}
+#CustomMenu:hover{
+/*     background:#2d78f4; */
+      background:hsla(188, 78%, 32%,  1);
+    color: #fff!important;
+     box-shadow: 0 0 10px rgba(255,255,255,.5);
+        transition:background .5s, box-shadow .5s;
+    
+
+}
+#CustomMenu li {
+    list-style-type: none;
+}
+#CustomMenu .button {
+    display: inline-block;
+    cursor: pointer;
+   
+}
+#CustonMenu .button ol{
+     background:#3385ff;
+    
+}
+#CustomMenu .menu {
+    display: none;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -35px;
+    text-align: center;
+     box-shadow: 0px 0px 10px 3px RGBA(0, 0, 0, .1);
+    -webkit-box-shadow: 0px 0px 10px  3px RGBA(0, 0, 0, .1);
+    -moz-box-shadow: 0px 0px 10px 3px RGBA(0, 0, 0, .1);
+}
+#CustomMenu .menu li {
+    line-height: 25px;
+    padding: 5px 10px;
+    background: #f0f0f0;
+    color: #222;
+   
+}
+#CustomMenu .menu li:hover {
+    background: #3385ff;
+    color: white;
+    cursor: pointer;
+}
+
+#CustomMenu  .menu li.success:hover{
+    background: #60b360;
+}
+#CustomMenu  .menu li.error:hover{
+    background: #ed7329;
+}
