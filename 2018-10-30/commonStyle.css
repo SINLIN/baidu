@@ -23,6 +23,9 @@ body>.res_top_banner,
 #demo {
     display: none !important;
 }
+.bd-none{
+    display:none!important;
+}
 body>div[style*='position: fixed;'],
 body>div[style*='position: absolute;'],
 #content_left>div:not([id]),
