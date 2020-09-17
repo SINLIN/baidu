@@ -36,6 +36,19 @@ body>div[style*='position: absolute;'],
     clip: rect(0 0 0 0) !important;
     z-index: -1 !important;
 }
+
+#content_left .result-op.c-container[tpl="tieba_general"] .c-container{
+   padding:0!important; 
+   box-sizing:content-box!important;
+   width:600px!important;
+}
+
+#content_left div[cmatchid]{
+    position:absolute!important;
+    z-index:-100!important;
+    clip:rect(0,0, 0, 0)!important;
+    background: red!important;
+}
 /**
 * 全局 
 */
@@ -79,7 +92,7 @@ a, em{
     background-color: transparent!important;
 }
 #form {
-    margin-left: 110px;
+    margin-left: 130px;
     vertical-align: top;
     box-shadow: none!important;
 }
