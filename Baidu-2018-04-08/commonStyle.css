@@ -23,7 +23,6 @@ body>.res_top_banner,
     display: none!important;
 }
 /* 推广和广告 */
-
 body>div[style*='position: fixed;'],
 body>div[style*='position: absolute;'],
 #content_left>div[id^='300'],
@@ -32,6 +31,14 @@ body>div[style*='position: absolute;'],
     display: none!important;
     position: absolute!important;
     top: -50000px!important;
+}
+
+/* 后续的广告 */
+#content_left>.list~div:not([class*="list"]){
+    display:none!important;
+    position:absolute!important;
+    z-index:-1!important;
+    opacity:0!important;
 }
 /******************* 初始化 *******************/
 
